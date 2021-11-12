@@ -1,0 +1,25 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.fullscreen {
+  //background-color: antiquewhite;
+  display: flex;
+  min-height: 100vh;
+  padding: 20px;
+  // .fullscreen__body
+  &__body {
+    //background-color: brown;
+    //flex: 1 1 auto;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+}
+.content {
+  // .content__title
+  &__title {}
+}
