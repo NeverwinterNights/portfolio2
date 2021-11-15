@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import styles from "./About.module.scss";
 import photo from "./../../img/my.jpg";
+import arrow from "../../img/arrow.svg";
 
 export const About = () => {
 
@@ -22,6 +23,7 @@ export const About = () => {
     return (
         <div className={customStyle}>
             <div className={styles.fullscreen}>
+                <div className={styles.burger}><img src={arrow} alt=""/></div>
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
 
@@ -30,19 +32,19 @@ export const About = () => {
                             <div className={styles.subtitle}>I am a beginner developer and I like what I am doing</div>
 
                             <div className={styles.body}>
-                                <div className={styles.body__item}>
+                                <div className={`${styles.body__item} ${styles.body__item_pic}`}>
                                     <div className={styles.body__pic}>
                                         <img src={photo} alt=""/>
                                     </div>
                                 </div>
-                                <div className={styles.body__item}>
+                                <div className={`${styles.body__item} ${styles.body__item_cont}`}>
                                     <div className={styles.body__item__wrapper}>
                                         <div className={styles.body__block}>
                                             <div className={styles.body__wrapper}>
                                                 <div className={styles.body__info}>First Name <span>Pavel</span></div>
                                                 <div className={styles.body__info}>Last Name <span>Kardash</span></div>
                                                 <div className={styles.body__info}>Birthdate <span>Kardash</span></div>
-                                                <div className={styles.body__info}>Nationality<span>Belarussian</span>
+                                                <div className={styles.body__info}>Nationality<span>Belarus</span>
                                                 </div>
                                                 <div className={styles.body__info}>Experience <span>0</span></div>
                                                 <div className={styles.body__info}>Address<span>Grodno</span></div>

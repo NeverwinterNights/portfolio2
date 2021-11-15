@@ -6,6 +6,7 @@
   background: url(./../../img/bg.jpg) no-repeat 0 0/100% 100%;
   position: relative;
   transition: all 0.7s ease 0s;
+
   @media (max-width: 999px) {
     position: absolute;
     z-index: 700;

@@ -14,17 +14,13 @@ export const Home = (props: NamePropsType) => {
 
 
     useEffect(() => {
-
-
-        setTimeout(() => setCustomStyle(styles.test), 0)
+       const id = setTimeout(() => setCustomStyle(styles.test), 0)
 
         return () => {
             setCustomStyle(styles.wrapper)
+            clearTimeout(id)
         }
     }, [])
-
-
-
 
 
     return (
