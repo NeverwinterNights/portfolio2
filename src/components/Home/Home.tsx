@@ -34,8 +34,10 @@ export const Home = (props: NamePropsType) => {
                         <div className={styles.content__body}>
                             <div className={styles.content__image}><img src={photo} alt=""/></div>
                             <div className={styles.content__info}>
+                                <div className={styles.content__wrap}>
                                 <div className={styles.content__sub}>HI THERE !</div>
                                 <h1 className={styles.content__title}>I'M <span>Pavel</span></h1>
+                                </div>
                                 <div className={styles.content__text}>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rem ipsum delectus
                                     a, omnis odio at minima minus natus nostrum. Ut totam eaque veniam non vero, debitis
