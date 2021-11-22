@@ -29,7 +29,7 @@ export const Home = (props: NamePropsType) => {
         <div className={customStyle}>
 
             <div className={styles.fullscreen}>
-                <div className={styles.burger}><img src={arrow} alt=""/></div>
+                <NavLink to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
                         <div className={styles.content__body}>

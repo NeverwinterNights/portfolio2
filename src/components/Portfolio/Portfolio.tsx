@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import styles from "./Portfolio.module.scss";
+import {NavLink} from "react-router-dom";
+import arrow from "../../img/arrow.svg";
 
 export const Portfolio = () => {
 
@@ -21,6 +23,8 @@ export const Portfolio = () => {
         <div className={customStyle}>
 
             <div className={styles.fullscreen}>
+                <NavLink to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
+
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
                         <div className={styles.content__title}>MY <span>PORTFOLIO</span></div>

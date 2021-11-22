@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import styles from "./About.module.scss";
 import photo from "./../../img/my.jpg";
 import arrow from "../../img/arrow.svg";
+import {NavLink} from "react-router-dom";
 
 export const About = () => {
 
@@ -23,7 +24,7 @@ export const About = () => {
     return (
         <div className={customStyle}>
             <div className={styles.fullscreen}>
-                <div className={styles.burger}><img src={arrow} alt=""/></div>
+                <NavLink to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
 
