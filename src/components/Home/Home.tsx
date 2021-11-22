@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import styles from "./Home.module.scss";
 import photo from "./../../img/my.jpg";
 import arrow from "./../../img/arrow.svg";
+import { NavLink } from 'react-router-dom';
 
 
 type  NamePropsType = {
@@ -45,12 +46,12 @@ export const Home = (props: NamePropsType) => {
                                     voluptatem? Consequatur!
                                 </div>
                                 <div className={styles.content__buttons}>
-                                    <div className={styles.content__buttonme}><a href="" className={styles.link}>more
+                                    <NavLink to="/about"  className={styles.content__buttonme}><a href="" className={styles.link}>more
                                         about me</a>
-                                    </div>
-                                    <div className={styles.content__buttonme}><a href=""
+                                    </NavLink>
+                                    <NavLink to="/portfolio"  className={styles.content__buttonme}><a href=""
                                                                                  className={styles.link}>portfolio</a>
-                                    </div>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
