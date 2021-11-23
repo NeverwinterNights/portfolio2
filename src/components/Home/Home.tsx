@@ -30,6 +30,7 @@ export const Home = (props: NamePropsType) => {
 
             <div className={styles.fullscreen}>
                 <NavLink to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
+
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
                         <div className={styles.content__body}>
@@ -46,11 +47,11 @@ export const Home = (props: NamePropsType) => {
                                     voluptatem? Consequatur!
                                 </div>
                                 <div className={styles.content__buttons}>
-                                    <NavLink to="/about"  className={styles.content__buttonme}><a href="" className={styles.link}>more
-                                        about me</a>
+                                    <NavLink to="/about"  className={styles.content__buttonme}><span className={styles.link}>more
+                                        about me</span>
                                     </NavLink>
-                                    <NavLink to="/portfolio"  className={styles.content__buttonme}><a href=""
-                                                                                 className={styles.link}>portfolio</a>
+                                    <NavLink to="/portfolio"  className={styles.content__buttonme}><span
+                                                                                 className={styles.link}>portfolio</span>
                                     </NavLink>
                                 </div>
                             </div>

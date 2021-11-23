@@ -23,7 +23,7 @@ export const Portfolio = () => {
         <div className={customStyle}>
 
             <div className={styles.fullscreen}>
-                <NavLink to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
+                <NavLink  to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
 
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
