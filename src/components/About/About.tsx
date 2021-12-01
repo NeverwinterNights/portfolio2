@@ -111,18 +111,21 @@ export const About = () => {
                                             </div>
                                         </div>
                                     </div>
+                                    <div className={styles.skills}>
+                                        <div className={styles.skills__title}>SKILLS</div>
+                                        <div className={styles.skills__body}>
+                                            <div className={styles.skills__item}>HTML</div>
+                                            <div className={styles.skills__item}>CSS/SCSS</div>
+                                            <div className={styles.skills__item}>JS</div>
+                                            <div className={styles.skills__item}>Typescript</div>
+                                            <div className={styles.skills__item}>React</div>
+                                            <div className={styles.skills__item}>Redux</div>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                            <div className={styles.skills}>
-                                <div className={styles.skills__title}>SKILLS</div>
-                                <div className={styles.skills__body}>
-                                    <div className={styles.skills__item}>HTML</div>
-                                    <div className={styles.skills__item}>CSS/SCSS</div>
-                                    <div className={styles.skills__item}>JS</div>
-                                    <div className={styles.skills__item}>REACT</div>
-                                    <div className={styles.skills__item}>REDUX</div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
