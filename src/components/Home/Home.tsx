@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import styles from "./Home.module.scss";
 import photo from "./../../img/my.jpg";
 import arrow from "./../../img/arrow.svg";
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 type  NamePropsType = {
@@ -15,7 +15,7 @@ export const Home = (props: NamePropsType) => {
 
 
     useEffect(() => {
-       const id = setTimeout(() => setCustomStyle(styles.test), 0)
+        const id = setTimeout(() => setCustomStyle(styles.test), 0)
 
         return () => {
             setCustomStyle(styles.wrapper)
@@ -25,20 +25,17 @@ export const Home = (props: NamePropsType) => {
 
 
     return (
-
         <div className={customStyle}>
-
             <div className={styles.fullscreen}>
                 <NavLink to="/header" className={styles.burger}><img src={arrow} alt=""/></NavLink>
-
                 <div className={styles.fullscreen__body}>
                     <div className={styles.content}>
                         <div className={styles.content__body}>
                             <div className={styles.content__image}><img src={photo} alt=""/></div>
                             <div className={styles.content__info}>
                                 <div className={styles.content__wrap}>
-                                <div className={styles.content__sub}>HI THERE !</div>
-                                <h1 className={styles.content__title}>I'M <span>Pavel</span></h1>
+                                    <div className={styles.content__sub}>HI THERE !</div>
+                                    <h1 className={styles.content__title}>I'M <span>Pavel</span></h1>
                                 </div>
                                 <div className={styles.content__text}>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rem ipsum delectus
@@ -47,11 +44,12 @@ export const Home = (props: NamePropsType) => {
                                     voluptatem? Consequatur!
                                 </div>
                                 <div className={styles.content__buttons}>
-                                    <NavLink to="/about"  className={styles.content__buttonme}><span className={styles.link}>more
+                                    <NavLink to="/about" className={styles.content__buttonme}><span
+                                        className={styles.link}>more
                                         about me</span>
                                     </NavLink>
-                                    <NavLink to="/portfolio"  className={styles.content__buttonme}><span
-                                                                                 className={styles.link}>portfolio</span>
+                                    <NavLink to="/portfolio" className={styles.content__buttonme}><span
+                                        className={styles.link}>portfolio</span>
                                     </NavLink>
                                 </div>
                             </div>
@@ -60,7 +58,6 @@ export const Home = (props: NamePropsType) => {
                 </div>
             </div>
         </div>
-
     );
 };
 

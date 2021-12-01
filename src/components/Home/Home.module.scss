@@ -202,7 +202,7 @@
   &__buttons {
     display: flex;
     @media (max-width: 777px) {
-      justify-content: center;
+      justify-content: space-between
     }
   }
 
@@ -226,6 +226,13 @@
     border: 0;
     padding: 0 30px;
     margin-right: 20px;
+
+    @media (max-width: 777px) {
+      flex-grow: 1;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
 
     a {
       color: inherit;

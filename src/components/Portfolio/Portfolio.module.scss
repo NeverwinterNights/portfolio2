@@ -66,7 +66,7 @@
 }
 
 .content {
-  margin: 60px 0;
+  margin: 100px 0;
   display: flex;
   flex-direction: column;
   @media (max-width: 1000px) {
@@ -82,7 +82,7 @@
     font-weight: 900;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     @media (max-width: 570px) {
       font-size: 35px;
     }
@@ -101,7 +101,7 @@
     font-size: 15px;
     position: relative;
     display: flex;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 50px auto;
     max-width: 550px;
     align-items: center;
     line-height: 1.2;

@@ -11,10 +11,11 @@ export const Portfolio = () => {
     useEffect(() => {
 
 
-        setTimeout(() => setCustomStyle(styles.test), 0)
+        const id=setTimeout(() => setCustomStyle(styles.test), 0)
 
         return () => {
             setCustomStyle(styles.wrapper)
+            clearTimeout(id)
         }
     }, [])
 

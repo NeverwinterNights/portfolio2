@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Header} from "./Header/Header";
 import {Home} from "./components/Home/Home";
-import {BrowserRouter, HashRouter, Redirect, Route, useHistory} from "react-router-dom";
+import {HashRouter, Redirect, Route, useHistory} from "react-router-dom";
 import {About} from './components/About/About';
 import {Portfolio} from "./components/Portfolio/Portfolio";
 import {Contacts} from "./components/Contacts/Contacts";
@@ -14,7 +14,8 @@ function App() {
     //const [customRedirect, setCustomRedirect] = useState<string>("")
 
     useEffect(() => {
-        setTimeout(() => setCustomStyle("main_after"), 2000)
+        const id=setTimeout(() => setCustomStyle("main_after"), 2000)
+return()=> clearTimeout(id)
 
     }, [])
     let history = useHistory();
@@ -27,7 +28,6 @@ function App() {
         }
 
     }
-
     useEffect(() => {
         setCustomRedirect(window.innerWidth)
         window.addEventListener("resize", clb);
@@ -35,7 +35,6 @@ function App() {
             window.removeEventListener("resize", clb)
         }
     }, [])
-
 
     return (
         <HashRouter>
@@ -49,11 +48,8 @@ function App() {
                         :
                         <Route path="/" render={() => <Redirect to="/home"/>}/>
                     }
-
                     <MobileMenu/>
-
                     {/*{!customRedirect && <Route exact path="/" render={() => <Redirect to="/home"/>}/>}*/}
-
                     <Route path="/home" render={() => <Home clb={clb}/>}/>
                     <Route path="/about" component={About}/>
                     <Route path="/portfolio" component={Portfolio}/>
