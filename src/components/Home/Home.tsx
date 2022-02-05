@@ -38,10 +38,7 @@ export const Home = (props: NamePropsType) => {
                                     <h1 className={styles.content__title}>I'M <span>Pavel</span></h1>
                                 </div>
                                 <div className={styles.content__text}>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rem ipsum delectus
-                                    a, omnis odio at minima minus natus nostrum. Ut totam eaque veniam non vero, debitis
-                                    alias
-                                    voluptatem? Consequatur!
+                                    I'm a Front-End Developer and Freelancer based in Grodno, Belarus. I strives to build immersive and beautiful web applications through carefully crafted code.
                                 </div>
                                 <div className={styles.content__buttons}>
                                     <NavLink to="/about" className={styles.content__buttonme}><span

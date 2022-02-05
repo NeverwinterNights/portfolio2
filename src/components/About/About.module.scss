@@ -178,7 +178,9 @@
       align-items: center;
     }
 
-    a {
+
+
+    .btn {
       margin-top: -50px;
       display: flex;
       justify-content: center;
@@ -204,6 +206,10 @@
       }
       @media (max-width: 663px) {
         margin: 0 auto;
+      }
+
+      &:hover {
+        background-color: #3581bf;
       }
     }
   }
@@ -265,6 +271,9 @@
   // .body__info
   &__info {
     margin-bottom: 10px;
+    a {
+      color: inherit;
+    }
     @media (max-width: 454px) {
       text-align: left;
     }
@@ -346,6 +355,15 @@
     font-weight: bold;
     @media (max-width: 755px) {
       font-size: 12px;
+    }
+  }
+
+  a {
+    color: inherit;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      color: #2196F3;
     }
   }
 }
