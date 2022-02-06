@@ -48,36 +48,6 @@ export const Portfolio = () => {
                             <div className={styles.portfolio__row}>
                                 <div className={styles.portfolio__column}>
                                     <div className={styles.portfolio__item}>
-                                        <div className={styles.portfolio__image}><img src={photo1} alt=""/></div>
-                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
-                                        <div className={styles.portfolio__footer}>
-                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/norw"} className={styles.portfolio__code}>Code</a>
-                                            <a target={"_blank"} href={"https://neverwinternights.github.io/norw/"} className={styles.portfolio__demo}>Demo</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={styles.portfolio__column}>
-                                    <div className={styles.portfolio__item}>
-                                        <div className={styles.portfolio__image}><img src={photo2} alt=""/></div>
-                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
-                                        <div className={styles.portfolio__footer}>
-                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/new_agence"} className={styles.portfolio__code}>Code</a>
-                                            <a target={"_blank"} href={"https://neverwinternights.github.io/new_agence/"} className={styles.portfolio__demo}>Demo</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={styles.portfolio__column}>
-                                    <div className={styles.portfolio__item}>
-                                        <div className={styles.portfolio__image}><img src={photo3} alt=""/></div>
-                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
-                                        <div className={styles.portfolio__footer}>
-                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/Bacery"} className={styles.portfolio__code}>Code</a>
-                                            <a target={"_blank"} href={"https://neverwinternights.github.io/Bacery/"} className={styles.portfolio__demo}>Demo</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={styles.portfolio__column}>
-                                    <div className={styles.portfolio__item}>
                                         <div className={styles.portfolio__image}><img src={photo4} alt=""/></div>
                                         <div className={styles.portfolio__title}>React Project</div>
                                         <div className={styles.portfolio__footer}>
@@ -103,6 +73,36 @@ export const Portfolio = () => {
                                         <div className={styles.portfolio__footer}>
                                             <a target={"_blank"} href={"https://github.com/NeverwinterNights/cards"} className={styles.portfolio__code}>Code</a>
                                             <a target={"_blank"} href={"https://alfilip.github.io/cards"} className={styles.portfolio__demo}>Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={styles.portfolio__column}>
+                                    <div className={styles.portfolio__item}>
+                                        <div className={styles.portfolio__image}><img src={photo1} alt=""/></div>
+                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
+                                        <div className={styles.portfolio__footer}>
+                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/norw"} className={styles.portfolio__code}>Code</a>
+                                            <a target={"_blank"} href={"https://neverwinternights.github.io/norw/"} className={styles.portfolio__demo}>Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={styles.portfolio__column}>
+                                    <div className={styles.portfolio__item}>
+                                        <div className={styles.portfolio__image}><img src={photo2} alt=""/></div>
+                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
+                                        <div className={styles.portfolio__footer}>
+                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/new_agence"} className={styles.portfolio__code}>Code</a>
+                                            <a target={"_blank"} href={"https://neverwinternights.github.io/new_agence/"} className={styles.portfolio__demo}>Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={styles.portfolio__column}>
+                                    <div className={styles.portfolio__item}>
+                                        <div className={styles.portfolio__image}><img src={photo3} alt=""/></div>
+                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
+                                        <div className={styles.portfolio__footer}>
+                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/Bacery"} className={styles.portfolio__code}>Code</a>
+                                            <a target={"_blank"} href={"https://neverwinternights.github.io/Bacery/"} className={styles.portfolio__demo}>Demo</a>
                                         </div>
                                     </div>
                                 </div>
