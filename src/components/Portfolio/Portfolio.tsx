@@ -10,7 +10,7 @@ import photo5 from "./../../img/portfolio/net.jpg";
 import photo6 from "./../../img/portfolio/cards.jpg";
 import photo7 from "./../../img/portfolio/cakes.jpg";
 import photo8 from "./../../img/portfolio/fas.jpg";
-
+import photo9 from "./../../img/portfolio/111.jpg";
 
 
 
@@ -128,11 +128,11 @@ export const Portfolio = () => {
                                 </div>
                                 <div className={styles.portfolio__column}>
                                     <div className={styles.portfolio__item}>
-                                        <div className={styles.portfolio__image}><img src="img/" alt=""/></div>
-                                        <div className={styles.portfolio__title}>Title</div>
+                                        <div className={styles.portfolio__image}><img src={photo9} alt=""/></div>
+                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
                                         <div className={styles.portfolio__footer}>
-                                            <div className={styles.portfolio__code}>Code</div>
-                                            <div className={styles.portfolio__demo}>Demo</div>
+                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/sea"} className={styles.portfolio__code}>Code</a>
+                                            <a target={"_blank"} href={"https://neverwinternights.github.io/sea/"} className={styles.portfolio__demo}>Demo</a>
                                         </div>
                                     </div>
                                 </div>

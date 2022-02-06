@@ -47,14 +47,14 @@ export const About = () => {
                                                 <div className={styles.body__info}>First Name <span>Pavel</span></div>
                                                 <div className={styles.body__info}>Last Name <span>Kardash</span></div>
                                                 <div className={styles.body__info}>Nationality<span>Belarus</span>                                                </div>
-                                                <div className={styles.body__info}>Experience <span>0</span></div>
+                                                {/*<div className={styles.body__info}>Experience <span>0</span></div>*/}
                                                 <div className={styles.body__info}>Address<span>Grodno</span></div>
                                             </div>
                                         </div>
                                         <div className={styles.body__block}>
                                             <div className={styles.body__wrapper}>
-                                                <div className={styles.body__info}>Remote work <span>Available</span>
-                                                </div>
+                                                {/*<div className={styles.body__info}>Remote work <span>Available</span>*/}
+                                                {/*</div>*/}
                                                 <div className={styles.body__info}>Langages -<span>English B1</span></div>
                                                 <div className={styles.body__info}>Phone -<a href="tel:+375293779934"> +375293779934</a></div>
                                                 <div className={styles.body__info}>Email -<a href="mailto:cardash@mail.ru"> cardash@mail.ru</a></div>
@@ -79,7 +79,7 @@ export const About = () => {
                                             <div className={styles.work}>
                                                 <div className={styles.date}>2008-until now</div>
                                                 <span className={styles.work__company}>Frelancer  - </span>
-                                                <span className={styles.work__position}>Сopywriter</span>
+                                                <span className={styles.work__position}><a rel="noreferrer" target={"_blank"} className={styles.work__company} href="https://www.etxt.biz/pashacar.html">Сopywriter</a> </span>
                                             </div>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ export const About = () => {
                                                     </div>
                                                     <div className={styles.work}>
                                                         <div className={styles.date}>2021-2022</div>
-                                                        <span className={styles.work__company}>React courses</span>
+                                                        <a href={"https://it-incubator.by/React-online.html"} rel="noreferrer" target={"_blank"} className={styles.work__company}>React courses</a>
                                                     </div>
                                                 </div>
                                             </div>
