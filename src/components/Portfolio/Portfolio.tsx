@@ -11,7 +11,7 @@ import photo6 from "./../../img/portfolio/cards.jpg";
 import photo7 from "./../../img/portfolio/cakes.jpg";
 import photo8 from "./../../img/portfolio/fas.jpg";
 import photo9 from "./../../img/portfolio/111.jpg";
-
+import photo0 from "./../../img/portfolio/todo.jpg";
 
 
 export const Portfolio = () => {
@@ -46,6 +46,16 @@ export const Portfolio = () => {
                         </div>
                         <div className={styles.portfolio__body}>
                             <div className={styles.portfolio__row}>
+                                <div className={styles.portfolio__column}>
+                                    <div className={styles.portfolio__item}>
+                                        <div className={styles.portfolio__image}><img src={photo0} alt=""/></div>
+                                        <div className={styles.portfolio__title}>React Project</div>
+                                        <div className={styles.portfolio__footer}>
+                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/ToDo"} className={styles.portfolio__code}>Code</a>
+                                            <a target={"_blank"} href={"https://neverwinternights.github.io/ToDo/"} className={styles.portfolio__demo}>Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className={styles.portfolio__column}>
                                     <div className={styles.portfolio__item}>
                                         <div className={styles.portfolio__image}><img src={photo4} alt=""/></div>
@@ -126,16 +136,7 @@ export const Portfolio = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={styles.portfolio__column}>
-                                    <div className={styles.portfolio__item}>
-                                        <div className={styles.portfolio__image}><img src={photo9} alt=""/></div>
-                                        <div className={styles.portfolio__title}>HTML/Adaptive site</div>
-                                        <div className={styles.portfolio__footer}>
-                                            <a target={"_blank"} href={"https://github.com/NeverwinterNights/sea"} className={styles.portfolio__code}>Code</a>
-                                            <a target={"_blank"} href={"https://neverwinternights.github.io/sea/"} className={styles.portfolio__demo}>Demo</a>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
