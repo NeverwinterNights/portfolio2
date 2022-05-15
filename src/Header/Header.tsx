@@ -11,7 +11,7 @@ export const Header = () => {
         <header className={styles.header}>
             <div className={styles.header__wrapper}>
                 <div
-                    className={`${styles.menu__fake} ${burger ? styles._active : ""}`}></div>
+                    className={`${styles.menu__fake} ${burger ? styles._active : ""}`}/>
                 <div className={`${styles.header__menu} ${styles.menu}`}>
                     <div onBlur={(e) => {
                         setBurger(false)
