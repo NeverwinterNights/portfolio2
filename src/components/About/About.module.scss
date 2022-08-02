@@ -416,6 +416,7 @@
 }
 
 .skills {
+  min-width: 120px;
   @media (max-width: 509px) {
     margin-bottom: 25px;
     flex: 1 0 100%;
