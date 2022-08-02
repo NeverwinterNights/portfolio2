@@ -112,7 +112,9 @@ export const About = () => {
                                             <div className={styles.skills__item}>JS</div>
                                             <div className={styles.skills__item}>Typescript</div>
                                             <div className={styles.skills__item}>React</div>
+                                            <div className={styles.skills__item}>ReactNative</div>
                                             <div className={styles.skills__item}>Redux</div>
+                                            <div className={styles.skills__item}>Redux Toolkit</div>
                                         </div>
                                     </div>
                                 </div>
