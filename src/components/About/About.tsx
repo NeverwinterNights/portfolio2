@@ -98,7 +98,7 @@ export const About = () => {
                                                     </div>
                                                     <div className={styles.work}>
                                                         <div className={styles.date}>2021-2022</div>
-                                                        <a href={"https://it-incubator.by/React-online.html"} rel="noreferrer" target={"_blank"} className={styles.work__company}>React courses</a>
+                                                        <a href={"https://it-incubator.ru/education/front-end"} rel="noreferrer" target={"_blank"} className={styles.work__company}>React courses</a>
                                                     </div>
                                                 </div>
                                             </div>
